@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield; /* Убираем стрелки */
+}
+
+body {
+    background-color: #121212;
+}
+
+form {
+    background-color: #232323;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    color: #E0E0E0;
+    min-width: 500px;
+
+}
+
+.width500 {
+    width: 500px;
+}
+input, button {
+    background-color: #6F6F6F;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+input:focus, button:focus, button:hover {
+    outline: none;
+    background-color: #a054fe;
+    transition: all ease .4s;
+}
+h1, h2, h3 {
+    color: #BB86FC;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
